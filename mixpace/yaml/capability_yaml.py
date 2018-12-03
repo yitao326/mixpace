@@ -1,7 +1,7 @@
 from appium import webdriver
 import yaml
 
-file = open('desired_caps.yaml', 'r')
+file = open('mixpace_caps.yaml', 'r')
 data = yaml.load(file)
 
 desired_caps = {}

@@ -6,7 +6,7 @@ import yaml
 import logging
 import logging.config
 
-file = open('../yaml/desired_caps.yaml', 'r')
+file = open('../config/mixpace_caps.yaml', 'r')
 data = yaml.load(file)
 
 CON_LOG = 'log.conf'

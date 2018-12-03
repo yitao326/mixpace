@@ -1,5 +1,5 @@
 import unittest
-from mixpace.page_object.desired_caps import appium_desired
+from mixpace.common.desired_caps import appium_desired
 import logging
 from time import sleep
 

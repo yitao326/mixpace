@@ -1,5 +1,5 @@
-from mixpace.unittest.myunit import StartEnd
-from mixpace.page_object.loginView import LoginView
+from mixpace.common.myunit import StartEnd
+from mixpace.businessView.loginView import LoginView
 import unittest
 import logging
 import warnings
