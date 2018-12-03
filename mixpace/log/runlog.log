@@ -1,0 +1,5 @@
+2018-12-02 19:44:00,509 logconf.py[line:26] INFO start app...
+2018-12-02 19:44:13,964 logconf.py[line:36] INFO check openBtn
+2018-12-02 19:44:16,550 logconf.py[line:40] INFO no openBtn
+2018-12-02 19:44:16,550 logconf.py[line:46] INFO check cancelBtn
+2018-12-02 19:44:19,249 logconf.py[line:50] INFO no cancelBtn

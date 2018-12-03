@@ -1,0 +1,14 @@
+platformName : Android
+platformVersion : 4.4.2
+deviceName : 127.0.0.1:62001
+#platformVersion : 5.1.1
+#deviceName : 127.0.0.1:21503
+app : C:\Users\Administrator\Desktop\mixpace-dev-v1.8.0-official.apk
+appPackage : com.mixpace.android.mixpace
+appActivity : com.mixpace.android.mixpace.activity.WelcomeActivity
+noReset : False
+unicodeKeyboard : True
+resetKeyboard : True
+ip : 127.0.0.1
+port : 4723
+

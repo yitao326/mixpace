@@ -1,0 +1,52 @@
+2018-12-02 21:29:10,434 myunit.py[line:8] INFO ===setUp===
+2018-12-02 21:29:10,436 desired_caps.py[line:28] INFO start app...
+2018-12-02 21:29:27,396 test_login.py[line:8] INFO ===test_login_15300752801===
+2018-12-02 21:29:29,115 loginView.py[line:21] INFO ===login_action===
+2018-12-02 21:29:29,115 loginView.py[line:22] INFO username is:15300752801
+2018-12-02 21:29:34,810 loginView.py[line:25] INFO click codeBtn
+2018-12-02 21:29:35,503 loginView.py[line:28] INFO password is:111111
+2018-12-02 21:29:41,284 loginView.py[line:31] INFO click loginBtn
+2018-12-02 21:29:42,211 loginView.py[line:33] INFO login finished!
+2018-12-02 21:29:42,211 myunit.py[line:12] INFO ===tearDown===
+2018-12-02 21:29:47,781 myunit.py[line:8] INFO ===setUp===
+2018-12-02 21:29:47,785 desired_caps.py[line:28] INFO start app...
+2018-12-02 21:30:03,816 test_login.py[line:13] INFO ===test_login_15300752802===
+2018-12-02 21:30:08,377 loginView.py[line:21] INFO ===login_action===
+2018-12-02 21:30:08,377 loginView.py[line:22] INFO username is:15300752802
+2018-12-02 21:30:10,597 myunit.py[line:12] INFO ===tearDown===
+2018-12-02 21:30:16,193 myunit.py[line:8] INFO ===setUp===
+2018-12-02 21:30:16,195 desired_caps.py[line:28] INFO start app...
+2018-12-02 21:30:32,062 test_login.py[line:18] INFO ===test_login_error===
+2018-12-02 21:30:36,610 loginView.py[line:21] INFO ===login_action===
+2018-12-02 21:30:36,610 loginView.py[line:22] INFO username is:18000000000
+2018-12-02 21:30:38,831 myunit.py[line:12] INFO ===tearDown===
+2018-12-02 21:38:48,139 myunit.py[line:8] INFO ===setUp===
+2018-12-02 21:38:48,141 desired_caps.py[line:28] INFO start app...
+2018-12-02 21:39:06,607 test_login.py[line:8] INFO ===test_login_15300752801===
+2018-12-02 21:39:07,850 loginView.py[line:21] INFO ===login_action===
+2018-12-02 21:39:07,851 loginView.py[line:22] INFO username is:15300752801
+2018-12-02 21:39:13,469 loginView.py[line:25] INFO click codeBtn
+2018-12-02 21:39:14,168 loginView.py[line:28] INFO password is:111111
+2018-12-02 21:39:19,426 loginView.py[line:31] INFO click loginBtn
+2018-12-02 21:39:20,195 loginView.py[line:33] INFO login finished!
+2018-12-02 21:39:20,195 myunit.py[line:12] INFO ===tearDown===
+2018-12-02 21:39:25,739 myunit.py[line:8] INFO ===setUp===
+2018-12-02 21:39:25,741 desired_caps.py[line:28] INFO start app...
+2018-12-02 21:39:46,655 test_login.py[line:13] INFO ===test_login_15300752802===
+2018-12-02 21:39:48,489 loginView.py[line:21] INFO ===login_action===
+2018-12-02 21:39:48,489 loginView.py[line:22] INFO username is:15300752802
+2018-12-02 21:39:54,073 loginView.py[line:25] INFO click codeBtn
+2018-12-02 21:39:54,751 loginView.py[line:28] INFO password is:111111
+2018-12-02 21:40:00,532 loginView.py[line:31] INFO click loginBtn
+2018-12-02 21:40:01,495 loginView.py[line:33] INFO login finished!
+2018-12-02 21:40:01,495 myunit.py[line:12] INFO ===tearDown===
+2018-12-02 21:40:07,042 myunit.py[line:8] INFO ===setUp===
+2018-12-02 21:40:07,045 desired_caps.py[line:28] INFO start app...
+2018-12-02 21:40:25,458 test_login.py[line:18] INFO ===test_login_error===
+2018-12-02 21:40:28,248 loginView.py[line:21] INFO ===login_action===
+2018-12-02 21:40:28,248 loginView.py[line:22] INFO username is:18000000000
+2018-12-02 21:40:33,865 loginView.py[line:25] INFO click codeBtn
+2018-12-02 21:40:34,585 loginView.py[line:28] INFO password is:222222
+2018-12-02 21:40:40,317 loginView.py[line:31] INFO click loginBtn
+2018-12-02 21:40:41,312 loginView.py[line:33] INFO login finished!
+2018-12-02 21:40:41,312 myunit.py[line:12] INFO ===tearDown===
