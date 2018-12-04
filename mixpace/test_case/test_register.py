@@ -7,11 +7,10 @@ class RegisterTest(StartEnd):
         logging.info('===test_user_register===')
         r = RegisterView(self.driver)
 
-        username = 'aaa' + 'fly' + str(random.randint(1000, 9000))
-        password = 'bbb' + str(random.randint(1000, 9000))
-        email = 'ccc' + str(random.randint(1000, 9000)) + '@163.com'
+        username = '188' + str(random.randint(1000, 9000)) + str(random.randint(1000, 9000))
+        password = '111111'
         # 设置断言
-        self.assertTrue(r.register_action(username, password, email))
+        self.assertTrue(r.register_action(username, password))
 
 if __name__ == '__main__':
     unittest.main()

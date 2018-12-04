@@ -4,13 +4,14 @@ from time import sleep
 import yaml
 import logging
 import logging.config
-import os
+import os, warnings
 
 CON_LOG = '../config/log.conf'
 logging.config.fileConfig(CON_LOG)
 logging = logging.getLogger()
 
 def appium_desired():
+    warnings.simplefilter('ignore', ResourceWarning)
     with open('../config/mixpace_caps.yaml', 'r', encoding='utf-8') as file:
         data = yaml.load(file)
 

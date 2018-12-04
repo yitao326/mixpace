@@ -12,20 +12,20 @@ class Common(BaseView):
     cancelBtn = (By.ID, 'com.mixpace.android.mixpace:id/tv_cancel')
     # 进入首页判断是否需要定位弹框
     def check_openBtn(self):
-        logging.info('====check_openBtn====')
+        logging.info('====定位弹窗====')
         try:
             openBtn = driver.find_element(*self.openBtn)
         except NoSuchElementException:
-            logging.info('no openBtn')
+            logging.info('没有定位弹窗')
         else:
             openBtn.click()
     # 进入首页判断是否需要推送弹框
     def check_cancelBtn(self):
-        logging.info('===check cancelBtn===')
+        logging.info('===权限窗口===')
         try:
             cancelBtn = driver.find_element(*self.cancelBtn)
         except NoSuchElementException:
-            logging.info('no cancelBtn')
+            logging.info('没有权限窗口')
         else:
             cancelBtn.click()
     # 获取屏幕尺寸
@@ -35,7 +35,7 @@ class Common(BaseView):
         return x, y
     # 向左滑动
     def dropDown(self):
-        logging.info('dropDown')
+        logging.info('左滑')
         l = self.get_size()
         x1 = int(l[0] * 0.5)  # 0代表x,1代表y
         y1 = int(l[1] * 0.3)
@@ -68,11 +68,3 @@ if __name__ == '__main__':
     com.check_cancelBtn()
     com.dropDown()
     com.getScreenShot('启动APP')
-
-
-
-
-    #
-    # csv_file = '../data/account.csv'
-    # data = get_csv_data(csv_file, 1)
-    # print(data)

@@ -25,34 +25,34 @@ class LoginView(Common):
         self.driver.find_element(*self.TXBtn).click()
 
         logging.info('===login_action===')
-        logging.info('username is:%s' %username)
+        logging.info('手机号输入 :%s' %username)
         self.driver.find_element(*self.username_type).send_keys(username)
 
-        logging.info('click codeBtn')
+        logging.info('获取验证码')
         self.driver.find_element(*self.codeBtn).click()
 
-        logging.info('password is:%s' %password)
+        logging.info('验证码输入 :%s' %password)
         self.driver.find_element(*self.password_type).send_keys(password)
 
-        logging.info('click loginBtn')
+        logging.info('点击登录')
         self.driver.find_element(*self.loginBtn).click()
-        logging.info('login finished!')
+        logging.info('登录完成!')
 
     def check_loginStatus(self):
-        logging.info('===check_loginStatus===')
+        logging.info('===检查是否登录成功===')
         try:
             self.driver.find_element(*self.myMili)
         except NoSuchElementException:
-            logging.error('login Fail!')
-            self.getScreenShot('login fail!')
+            logging.error('登录失败!')
+            self.getScreenShot('登录失败!')
             return False
         else:
-            logging.info('login success')
+            logging.info('登录成功')
             self.logout_action()
             return True
 
     def logout_action(self):
-        logging.info('===logout_action===')
+        logging.info('===退出登录===')
         self.driver.find_element(*self.ivHead).click()
         self.driver.find_element(*self.rlExit).click()
         self.driver.find_element(*self.btnConfirm).click()
