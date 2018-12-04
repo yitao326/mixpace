@@ -14,7 +14,7 @@ class TestLogin(StartEnd):
         l.login_action(data[0], data[1])
         self.assertTrue(l.check_loginStatus())
 
-    @unittest.skip('test_login_15300752802')       # 暂不执行
+    # @unittest.skip('test_login_15300752802')
     def test_login_15300752802(self):
         logging.info('===test_login_15300752802===')
         l = LoginView(self.driver)
@@ -23,7 +23,7 @@ class TestLogin(StartEnd):
         l.login_action(data[0], data[1])
         self.assertTrue(l.check_loginStatus())
 
-    @unittest.skip('test_login_error')
+    # @unittest.skip('test_login_error')
     def test_login_error(self):
         logging.info('===test_login_error===')
         l = LoginView(self.driver)
